@@ -167,12 +167,12 @@ const App: React.FC = () => {
           left: boardOffset.x,
           top: boardOffset.y,
           background: `
-            linear-gradient(91deg, rgba(120,105,90,0.06) 1px, transparent 1px),
-            linear-gradient(181deg, rgba(120,105,90,0.06) 1px, transparent 1px),
-            linear-gradient(89deg, rgba(110,95,80,0.04) 1px, transparent 1px),
-            linear-gradient(179deg, rgba(110,95,80,0.04) 1px, transparent 1px),
-            linear-gradient(92deg, rgba(100,85,70,0.03) 1px, transparent 1px),
-            linear-gradient(178deg, rgba(100,85,70,0.03) 1px, transparent 1px),
+            linear-gradient(91deg, rgba(120,105,90,0.12) 1px, transparent 1px),
+            linear-gradient(181deg, rgba(120,105,90,0.12) 1px, transparent 1px),
+            linear-gradient(89deg, rgba(110,95,80,0.08) 1px, transparent 1px),
+            linear-gradient(179deg, rgba(110,95,80,0.08) 1px, transparent 1px),
+            linear-gradient(92deg, rgba(100,85,70,0.06) 1px, transparent 1px),
+            linear-gradient(178deg, rgba(100,85,70,0.06) 1px, transparent 1px),
             radial-gradient(ellipse 60% 40% at 15% 20%, rgba(255,255,255,0.15) 0%, transparent 50%),
             radial-gradient(ellipse 50% 60% at 85% 75%, rgba(255,255,255,0.12) 0%, transparent 50%),
             radial-gradient(ellipse 70% 50% at 50% 50%, rgba(255,255,255,0.08) 0%, transparent 60%)
@@ -209,3 +209,4 @@ const App: React.FC = () => {
 };
 
 export default App;
+
